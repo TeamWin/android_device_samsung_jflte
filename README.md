@@ -6,7 +6,7 @@ Add to `.repo/local_manifests/jfltexx.xml`:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="ripee/twrp_android_device_samsung_jfltexx" path="device/samsung/jfltexx" remote="github" revision="android-7.1" />
+  <project name="TeamWin/android_device_samsung_jfltexx" path="device/samsung/jfltexx" remote="github" revision="android-7.1" />
 </manifest>
 ```
 
