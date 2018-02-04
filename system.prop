@@ -1,9 +1,11 @@
-ro.boot.bootdevice=15540000.dwmmc0
+ro.hardware=qcom
+ro.boot.bootdevice=msm_sdcc.1
 ro.boot.selinux=permissive
-ro.hardware=universal5433
-ro.chipname=exynos5433
-ro.arch=exynos5433
+ro.hardware=MSM8960
+ro.chipname=msm8960
+ro.arch=msm8960
 ro.lcd_min_brightness=0
 ro.lcd_brightness=162
-ro.sf.lcd_density=320
+ro.sf.lcd_density=480
 persist.sys.usb.config=mtp,adb
+persist.fuse_sdcard=true
