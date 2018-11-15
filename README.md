@@ -1,12 +1,12 @@
-## TWRP device tree for Samsung Galaxy S4 (GT-I9505/G, SGH-M919)
-## jflte, jfltetmo, jfltexx, jgedlte
+## TWRP device tree for Samsung Galaxy S4 (Qualcomm)
+## jactivelte, jflteatt, jfltecan, jfltecri, jfltecsp, jflterefreshspr, jfltespr, jfltetfnatt, jfltetfntmo, jfltetmo, jflteusc, jfltevzw, jfltexx, jfltezm, jftddxx
 
-Add to `.repo/local_manifests/jfltexx.xml`:
+Add to `.repo/local_manifests/jflte.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="TeamWin/android_device_samsung_jfltexx" path="device/samsung/jfltexx" remote="github" revision="android-7.1" />
+  <project name="TeamWin/android_device_samsung_jflte" path="device/samsung/jflte" remote="github" revision="android-7.1" />
 </manifest>
 ```
 
@@ -16,7 +16,7 @@ To build:
 
 ```sh
 . build/envsetup.sh
-lunch omni_jfltexx-eng
+lunch omni_jflte-eng
 mka recoveryimage
 ```
 
