@@ -1,5 +1,5 @@
 ## TWRP device tree for Samsung Galaxy S4 (Qualcomm)
-## jactivelte, jflteatt, jfltecan, jfltecri, jfltespr, jfltetmo, jflteusc, jfltevzw, jfltexx, jgedlte
+## jactivelte, jflteatt, jfltecan, jfltecri, jfltescp, jfltespr, jfltetmo, jflteusc, jfltevzw, jfltexx, jgedlte
 
 Add to `.repo/local_manifests/jflte.xml`:
 

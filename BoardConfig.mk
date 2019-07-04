@@ -4,7 +4,7 @@ CM_PLATFORM_SDK_VERSION := 7	# Required for libf2fs.so
 override TARGET_OUT_VENDOR_SHARED_LIBRARIES = $(TARGET_OUT_SHARED_LIBRARIES)
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := jactivelte,jflte,jfltexx,jgedlte,jfltevzw,jflteusc,jfltecri,jflteatt,jfltecan,jfltetmo,jfltespr
+TARGET_OTA_ASSERT_DEVICE := jactivelte,jflte,jflteatt,jfltecan,jfltecri,jfltescp,jfltespr,jfltetmo,jflteusc,jfltevzw,jfltexx,jgedlte
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8960
