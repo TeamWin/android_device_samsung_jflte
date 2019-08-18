@@ -4,7 +4,7 @@ CM_PLATFORM_SDK_VERSION := 7	# Required for libf2fs.so
 override TARGET_OUT_VENDOR_SHARED_LIBRARIES = $(TARGET_OUT_SHARED_LIBRARIES)
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := jactivelte,jflte,jflteatt,jfltecan,jfltecri,jfltescp,jfltespr,jfltetmo,jflteusc,jfltevzw,jfltexx,jgedlte
+TARGET_OTA_ASSERT_DEVICE := jflte,jflteatt,jfltecan,jfltecri,jfltecsp,jfltelra,jfltespr,jfltetmo,jflteusc,jfltevzw,jfltexx,jgedlte
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8960
@@ -71,3 +71,8 @@ TW_CRYPTO_FS_FLAGS := "0x00000406"
 TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,noauto_da_alloc,discard,journal_async_commit,errors=panic      wait,check,encryptable=footer"
 TW_CRYPTO_FS_TYPE := "ext4"
 TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/msm_sdcc.1/by-name/userdata"
+
+# Init properties from bootloader version, ex. model info
+TARGET_UNIFIED_DEVICE := true
+TARGET_INIT_VENDOR_LIB := libinit_jflte
+TARGET_LIBINIT_DEFINES_FILE := $(DEVICE_TREE)/init/init_jflte.cpp
