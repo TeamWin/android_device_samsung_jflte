@@ -16,6 +16,23 @@
       "message": "don\u0027t use tabs pls, spaces belong in fstab.\n\nbackup of apnhlos and modem don\u0027t make much sense to me, I\u0027d drop those.\n\nfooter encryption is right, so that\u0027s good",
       "revId": "a84d8e9d5cf73c732dd492c587668dd437a3b179",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ecfe4a1_82a0508b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13
+      },
+      "writtenOn": "2021-05-17T22:14:49Z",
+      "side": 1,
+      "message": "additionally, any point to labeling partitions with capitals? doesn\u0027t make much sense to me, plus \"Firmware\" isn\u0027t really accurate for apnhlos alone, that would include shoot, sbl1-3, etc.",
+      "revId": "a84d8e9d5cf73c732dd492c587668dd437a3b179",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
