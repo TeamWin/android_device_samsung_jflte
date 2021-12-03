@@ -64,6 +64,7 @@ TW_NO_REBOOT_BOOTLOADER := true
 TW_HAS_DOWNLOAD_MODE := true
 TW_INCLUDE_NTFS_3G := true
 TW_EXCLUDE_SUPERSU := true
+TW_NO_EXFAT := true
 
 # Encryption support
 TW_INCLUDE_CRYPTO := true
